@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>latihan 2</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/navbar2.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel.rtl.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/blog.rtl.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    
+  </head>
+  <body>
+    <!---bagian header-->
+    <div class="fixed">
+    <div class="bagianheader">
+    <header class="shadow-none p-2 mb-1 mt-0 bg-light fixed-top">
+      <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 ml-3 link-dark text-decoration-none dropdown-toggle" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="bi me-3" width="50" height="50" src="asset/2.png" alt="logo">
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink">
+            <li><a class="dropdown-item active" href="#" aria-current="page">YPI Ar-Rahmah</a></li>
+            <li><a class="dropdown-item" href="#">MTs. Nurul Huda</a></li>
+            <li><a class="dropdown-item" href="#">PPTQ Ar-Rahmah</a></li>
+           
+          </ul>
+        </div>
+      <div class="d-flex align-items-center">
+        <form class="w-100 me-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+        <div id="cari">
+    <button class="cari btn btn-primary">cari</button>
+  </div>
+    </header>
+  </div>
+    
+
+    <!-----bagian navbar-->
+    <main>
+      <div class="navigator">
+      <nav class="navbar navbar-expand-lg navbar-dark  shadow-lg p-2 mb-0" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"       aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="profilvisi.html">Visi - Misi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Akademik</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="jurusan.html">Jurusan</a></li>
+                  <li><a class="dropdown-item" href="fasilitas.html">fasilitas</a></li>
+                  <li><a class="dropdown-item" href="guru.html">Guru dan TU</a></li>
+                  <li><a class="dropdown-item" href="eskul.html">Eskull</a></li>
+                  <li><a class="dropdown-item" href="ppdb.html">Info PPDB</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">galeri</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="poto.html">Foto Kegiatan</a></li>
+                  <li><a class="dropdown-item" href="video.html">Video Kegiatan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="kontak.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <div id="login">
+            <div class="btn btn-dangerius bg-red shadow-lg p-2 mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" href="#">Login</div>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!--akhir bagian nav bar-->
+  
+
+    <!--bagian modul pop uplogiN-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="form-signin">
+        <form>
+          <div class="text-center">
+            <img class="mb-3" src="asset/logo.png" alt="" width="72" height="72" m-auto>
+            <h1 class="h3 mb-3 fw-center ">Yuk Login !</h1>
+          </div>
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="User Name...">
+            <label for="floatingInput">User name..</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password.....</label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-muted">&copy; Official Ar-Rahmah</p>
+
+        </form>
+      </div>
+       
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--bagian jumbotrone-->
+<br>
+<div class="nav-scroller py-1 mb-2">
+  <nav class="nav d-flex justify-content-between">
+    <a class="p-2 link-secondary" href="#">World</a>
+    <a class="p-2 link-secondary" href="#">U.S.</a>
+    <a class="p-2 link-secondary" href="#">Technology</a>
+    <a class="p-2 link-secondary" href="#">Design</a>
+    <a class="p-2 link-secondary" href="#">Culture</a>
+    <a class="p-2 link-secondary" href="#">Business</a>
+    <a class="p-2 link-secondary" href="#">Politics</a>
+    <a class="p-2 link-secondary" href="#">Opinion</a>
+    <a class="p-2 link-secondary" href="#">Science</a>
+    <a class="p-2 link-secondary" href="#">Health</a>
+    <a class="p-2 link-secondary" href="#">Style</a>
+    <a class="p-2 link-secondary" href="#">Travel</a>
+  </nav>
+</div>
+</div>
+
+<main class="container">
+<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+  <div class="col-md-6 px-0">
+    <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+    <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+    <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+  </div>
+</div>
+
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-primary">World</strong>
+        <h3 class="mb-0">Featured post</h3>
+        <div class="mb-1 text-muted">Nov 12</div>
+        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="stretched-link">Continue reading</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-success">Design</strong>
+        <h3 class="mb-0">Post title</h3>
+        <div class="mb-1 text-muted">Nov 11</div>
+        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="stretched-link">Continue reading</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-5">
+  <div class="col-md-8">
+    <h3 class="pb-4 mb-4 fst-italic border-bottom">
+      From the Firehose
+    </h3>
+
+    <article class="blog-post">
+      <h2 class="blog-post-title">Sample blog post</h2>
+      <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+
+      <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+      <hr>
+      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+      <h2>Blockquotes</h2>
+      <p>This is an example blockquote in action:</p>
+      <blockquote class="blockquote">
+        <p>Quoted text goes here.</p>
+      </blockquote>
+      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+      <h3>Example lists</h3>
+      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:</p>
+      <ul>
+        <li>First list item</li>
+        <li>Second list item with a longer description</li>
+        <li>Third list item to close it out</li>
+      </ul>
+      <p>And this is an ordered list:</p>
+      <ol>
+        <li>First list item</li>
+        <li>Second list item with a longer description</li>
+        <li>Third list item to close it out</li>
+      </ol>
+      <p>And this is a definiton list:</p>
+      <dl>
+        <dt>HyperText Markup Language (HTML)</dt>
+        <dd>The language used to describe and define the content of a Web page</dd>
+        <dt>Cascading Style Sheets (CSS)</dt>
+        <dd>Used to describe the appearance of Web content</dd>
+        <dt>JavaScript (JS)</dt>
+        <dd>The programming language used to build advanced Web sites and applications</dd>
+      </dl>
+      <h2>Inline HTML elements</h2>
+      <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+      <ul>
+        <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+        <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+        <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
+        <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+        <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+        <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+      </ul>
+      <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+      <h2>Heading</h2>
+      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+      <h3>Sub-heading</h3>
+      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+      <pre><code>Example code block</code></pre>
+      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+    </article>
+
+    <article class="blog-post">
+      <h2 class="blog-post-title">Another blog post</h2>
+      <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+
+      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+      <blockquote>
+        <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+      </blockquote>
+      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+      <h3>Example table</h3>
+      <p>And don't forget about tables in these posts:</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Upvotes</th>
+            <th>Downvotes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice</td>
+            <td>10</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>4</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Charlie</td>
+            <td>7</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Totals</td>
+            <td>21</td>
+            <td>23</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+    </article>
+
+    <article class="blog-post">
+      <h2 class="blog-post-title">New feature</h2>
+      <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+
+      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+      <ul>
+        <li>First list item</li>
+        <li>Second list item with a longer description</li>
+        <li>Third list item to close it out</li>
+      </ul>
+      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+    </article>
+
+    <nav class="blog-pagination" aria-label="Pagination">
+      <a class="btn btn-outline-primary" href="#">Older</a>
+      <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+    </nav>
+
+  </div>
+
+  <div class="col-md-4">
+    <div class="position-sticky" style="top: 2rem;">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h4 class="fst-italic">About</h4>
+        <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+      </div>
+
+      <div class="p-4">
+        <h4 class="fst-italic">Archives</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">March 2021</a></li>
+          <li><a href="#">February 2021</a></li>
+          <li><a href="#">January 2021</a></li>
+          <li><a href="#">December 2020</a></li>
+          <li><a href="#">November 2020</a></li>
+          <li><a href="#">October 2020</a></li>
+          <li><a href="#">September 2020</a></li>
+          <li><a href="#">August 2020</a></li>
+          <li><a href="#">July 2020</a></li>
+          <li><a href="#">June 2020</a></li>
+          <li><a href="#">May 2020</a></li>
+          <li><a href="#">April 2020</a></li>
+        </ol>
+      </div>
+
+      <div class="p-4">
+        <h4 class="fst-italic">Elsewhere</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  </main>
+<!--bagian footer-->
+ <footer>
+   <div class="container-fluid">
+     <div class="row row-fotter">
+       <div class="col-sm-3 pb-2">
+         <div class="content">
+           <h4>Sambutan Kepala Sekolah</h4>
+           <hr>
+           <div class="body-content">
+            <img src="asset/kepsek.jpg" alt="kepala sekolah" style="margin-top:0px; height:200px; border:#eee thin solid; padding:5px; float:left;  margin:0 10px;">
+            <p>Assalamu&#39;alaikum wr.wb.</p>
+
+<p style="text-align: justify;">Puji syukur kepada Allah SWT, Tuhan Yang Maha Esa yang telah memberikan rahmat dan anugerahnya sehingga pendaftaran siswa baru berbasis online ini dapat terbit untuk menjawab akan setiap kebutuhan informasi dengan memanfaatkan sarana teknologi informasi yang ada.</p>
+<p>Wassalamu&#39;alaikum wr.wb.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-sm-3 pb-2">
+        <div class="head-content">
+          <h4>Alamat</h4>
+          <hr>
+        </div>
+        <div class="body-content">
+          
+          <p>Jl. Raya Jasinga - Koleang Km.06, Kp Silongong RT.03/04 Dusun 2 Desa Koleang Kecematan Jasinga Kabupaten Bogor Provinsi Jawa Barat (16670)</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4851045936216!2d106.44145831431246!3d-6.460056164962023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e420b823079f533%3A0xe9855a83a906d538!2sYayasan%20Ar%20Rahmah%20Jasinga!5e0!3m2!1sid!2sid!4v1635169448223!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-2 pb-2">
+        <div class="head-content">
+          <h4>Link Terkait</h4>
+        </div>
+        <hr>
+        <div class="body-content">
+          <ul class="timeline">
+            <li>
+              <a class="shorcut"  href="#">Berit terkini</a>
+            </li>
+            <li>
+              <a class="shorcut" href="#">Perlombaan Paskibra Jawabarat</a>
+            </li>
+            <li>
+              <a class="shorcut" href="#">PPDB</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-2 pb-2">
+        <div class="head-content">
+          <h4>Newsletter</h4>
+          <hr>
+        </div>
+        <div class="body-content text-center border">
+          <form action="#" class="send">
+            <div class="email">
+              <div class="text" > Email</div>
+              <input type="email" placeholder="Masukan email anda..." class="textarea"  required>
+            </div>
+
+            <div class="msg">
+              <div class="text">Pesan Anda</div>
+                <textarea class="textarea" placeholder="Isikan Pesan Anda.." rows="2" cols="25" required="" ></textarea>
+            </div>
+            <div class="btn btn-primary btn-sm" type="submit">
+              KIRIM
+            </div>
+          </form>
+          
+        </div>
+      </div>
+     
+     </div>
+   </div>
+ </footer>
+ <p class="copyryght">&copy; Official Ar-Rahmah 2021</p>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.2/dist/sweetalert2.all.min.js"></script>
+  <script src="popupmanual.js"></script>
+</body>
+</html>

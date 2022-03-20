@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>smkarrahmahjasinga</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/navbar2.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel.rtl.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/blog.rtl.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    
+  </head>
+  <body>
+    <!---bagian header-->
+    <div class="fixed">
+    <div class="bagianheader">
+    <header class="shadow-none p-2 mb-1 mt-0 bg-light fixed-top">
+      <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 ml-3 link-dark text-decoration-none dropdown-toggle" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="bi me-3" width="50" height="50" src="asset/2.png" alt="logo">
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink">
+            <li><a class="dropdown-item active" href="#" aria-current="page">YPI Ar-Rahmah</a></li>
+            <li><a class="dropdown-item" href="#">MTs. Nurul Huda</a></li>
+            <li><a class="dropdown-item" href="#">PPTQ Ar-Rahmah</a></li>
+           
+          </ul>
+        </div>
+      <div class="d-flex align-items-center">
+        <form class="w-100 me-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+        <div id="cari">
+          <button onclick="myClick()" class="cari btn btn-primary" data-toggle="modal" data-target="#modal-primary">cari</button>
+        </div>
+        <script>
+          function myClick() {
+            alert('maaf fungsi ini belum tersedia');
+          }
+        </script>
+    </header>
+  </div>
+    
+
+    <!-----bagian navbar-->
+    <main>
+      <div class="navigator">
+      <nav class="navbar navbar-expand-lg navbar-dark  shadow-lg p-2 mb-0" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"       aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="profilvisi.html">Visi - Misi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Akademik</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="jurusan.html">Jurusan</a></li>
+                  <li><a class="dropdown-item" href="fasilitas.html">fasilitas</a></li>
+                  <li><a class="dropdown-item" href="guru.html">Guru dan TU</a></li>
+                  <li><a class="dropdown-item" href="eskul.html">Eskull</a></li>
+                  <li><a class="dropdown-item" href="ppdb.html">Info PPDB</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">galeri</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="poto.html">Foto Kegiatan</a></li>
+                  <li><a class="dropdown-item" href="video.html">Video Kegiatan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="kontak.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <div id="login">
+            <div class="btn btn-dangerius bg-red shadow-lg p-2 mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" href="#">Login</div>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!--akhir bagian nav bar-->
+  
+
+    <!--bagian modul pop uplogiN-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="form-signin">
+        <form>
+          <div class="text-center">
+            <img class="mb-3" src="asset/logo.png" alt="" width="72" height="72" m-auto>
+            <h1 class="h3 mb-3 fw-center ">Yuk Login !</h1>
+          </div>
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="User Name...">
+            <label for="floatingInput">User name..</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password.....</label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-muted">&copy; Official Ar-Rahmah</p>
+
+        </form>
+      </div>
+       
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--bagian jumbotrone-->
+
+<div class="deskripsi" style="width:90%; margin:30px auto; color:#3b3b3b;">
+  
+  <div class="tempattable" style="width: auto; overflow-x:scroll; height: auto;">
+  <p class="text-center" >
+    <img class="banner bd-placeholder-img bd-placeholder-img-lg img-fluid " width="100%" height="250" src="asset/JURUSAN.jpg" alt="not image" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text>
+  </p>
+  </div>
+  <style>
+    .banner {
+      border-radius: 20px;
+      
+    }
+  </style>
+<hr>
+<div class="jurusan animated fadeInDown">
+  
+  <div class="card-body mb-0 padding-0">
+    <!--Title-->
+    <h6 class="card-title darkblue-text" style="font-size: 12px; text-align: center;">
+      <strong>LETS JOIN WITH US ! AND BE THE WINER</strong>
+    </h6>
+    <hr>
+    <p style="font-size: 12px; text-align: center;">saat ini SMK AR-RAHMAH JASINGA BARU MEMBUKA JURUSAN PERBANKAN SYARIAH, dan fokus pada pengembangan perbankan syariah,  perbankan syari'ah tengah berkembang di penjuru negri, dan menjadi peluang besar bagi bangsa indonesia untuk menjadi pusat perbankan syari'ah di dunia. karna indonesia merupakan negara muslim terbesar di dunia, dan jadilah bukti perjuangan ekonomi islam di indonesia dengan bergabung bersama kami</p>
+    <br>
+    <div style="text-align: center;">
+
+      <div class="carousel slide" data-bs-ride="carousel">
+        <div style="margin-bottom: 0px; padding-bottom: 0px;" class="carousel-inner">
+            <div class="carousel-item active ">
+              <p>
+              <img class="border=2px" height="300" src="asset/pbs.jpg" width="300"></img>
+            </p>
+            </div>
+            <div class="carousel-item">
+              <p>
+              <img class="border=2px" height="300" src="asset/pbs2.jpg" width="300"></img>
+            </p>
+            </div>
+            <div class="carousel-item">
+            <p>
+            <img class="border=2px" height="300" src="asset/pbs3.jpg" width="300"></img>
+            </p>
+            </div>
+            <div class="carousel-item">
+              <p>
+              <img class="border=2px" height="300" src="asset/pbs4.jpg" width="300"></img>
+              </p>
+            </div>
+        </div>
+        <hr>
+       </div>
+       
+     </div>
+
+</div>
+</div>
+</div>
+  </main>
+<!--bagian footer-->
+ <footer>
+   <div class="container-fluid">
+     <div class="row row-fotter">
+       <div class="col-sm-3 pb-2">
+         <div class="content">
+           <h4>Sambutan Kepala Sekolah</h4>
+           <hr>
+           <div class="body-content">
+            <img src="asset/kepsek.jpg" alt="kepala sekolah" style="margin-top:0px; height:200px; border:#eee thin solid; padding:5px; float:left;  margin:0 10px;">
+            <p>Assalamu&#39;alaikum wr.wb.</p>
+
+<p style="text-align: justify;">Puji syukur kepada Allah SWT, Tuhan Yang Maha Esa yang telah memberikan rahmat dan anugerahnya sehingga pendaftaran siswa baru berbasis online ini dapat terbit untuk menjawab akan setiap kebutuhan informasi dengan memanfaatkan sarana teknologi informasi yang ada.</p>
+<p>Wassalamu&#39;alaikum wr.wb.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-sm-3 pb-2">
+        <div class="head-content">
+          <h4>Alamat</h4>
+          <hr>
+        </div>
+        <div class="body-content">
+          
+          <p>Jl. Raya Jasinga - Koleang Km.06, Kp Silongong RT.03/04 Dusun 2 Desa Koleang Kecematan Jasinga Kabupaten Bogor Provinsi Jawa Barat (16670)</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4851045936216!2d106.44145831431246!3d-6.460056164962023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e420b823079f533%3A0xe9855a83a906d538!2sYayasan%20Ar%20Rahmah%20Jasinga!5e0!3m2!1sid!2sid!4v1635169448223!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-2 pb-2">
+        <div class="head-content">
+          <h4>Link Terkait</h4>
+        </div>
+        <hr>
+        <div class="body-content">
+          <ul class="timeline">
+            <li>
+              <a class="shorcut"  href="#">Berita terkini</a>
+            </li>
+            <li>
+              <a class="shorcut" href="#">Perlombaan Paskibra Jawabarat</a>
+            </li>
+            <li>
+              <a class="shorcut" href="#">PPDB</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-2 pb-2">
+        <div class="head-content">
+          <h4>Newsletter</h4>
+          <hr>
+        </div>
+        <div class="body-content text-center border">
+          <form action="#" class="send">
+            <div class="email">
+              <div class="text" > Email</div>
+              <input type="email" placeholder="Masukan email anda..." class="textarea"  required>
+            </div>
+
+            <div class="msg">
+              <div class="text">Pesan Anda</div>
+                <textarea class="textarea" placeholder="Isikan Pesan Anda.." rows="2" cols="25" required="" ></textarea>
+            </div>
+            <div class="btn btn-primary btn-sm" type="submit">
+              KIRIM
+            </div>
+          </form>
+          
+        </div>
+      </div>
+     
+     </div>
+   </div>
+ </footer>
+ <p class="copyryght">&copy; Official Ar-Rahmah 2021</p>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.2/dist/sweetalert2.all.min.js"></script>
+  <script src="popupmanual.js"></script>
+</body>
+</html>

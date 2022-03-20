@@ -1,0 +1,28 @@
+/* bagian navbar*/
+
+.nav-link {
+  color: aqua;
+}
+#navbar:hover {
+  animation: rainbow;
+  animation-duration: 3s;
+
+}
+
+@keyframes rainbow {
+  100% {
+    background-color: chartreuse;
+}
+75% {
+    background-color: cyan;
+}
+50% {
+    background-color: darkmagenta;
+}
+25% {
+    background-color: darkred;
+}
+}
+
+
+/*bagian slider*/

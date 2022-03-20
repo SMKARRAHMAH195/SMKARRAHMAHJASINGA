@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>smkarrahmahjasinga</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/navbar2.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel.rtl.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/blog.rtl.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    
+  </head>
+  <body>
+    <!---bagian header-->
+    <div class="fixed">
+    <div class="bagianheader">
+    <header class="shadow-none p-2 mb-1 mt-0 bg-light fixed-top">
+      <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 ml-3 link-dark text-decoration-none dropdown-toggle" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="bi me-3" width="50" height="50" src="asset/2.png" alt="logo">
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink">
+            <li><a class="dropdown-item active" href="#" aria-current="page">YPI Ar-Rahmah</a></li>
+            <li><a class="dropdown-item" href="#">MTs. Nurul Huda</a></li>
+            <li><a class="dropdown-item" href="#">PPTQ Ar-Rahmah</a></li>
+           
+          </ul>
+        </div>
+      <div class="d-flex align-items-center">
+        <form class="w-100 me-3">
+          <input type="search" id="myInput" onkeyup="myClick()" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+        <div id="cari">
+          <button onclick="myClick()" class="cari btn btn-primary" data-toggle="modal" data-target="#modal-primary">cari</button>
+        </div>
+        <script>
+          function myClick() {
+            alert('maaf fungsi ini belum tersedia');
+          }
+        </script>
+    </header>
+  </div>
+    
+
+    <!-----bagian navbar-->
+    <main>
+      <div class="navigator">
+      <nav class="navbar navbar-expand-lg navbar-dark  shadow-lg p-2 mb-0" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"       aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="profilvisi.html">Visi - Misi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Akademik</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="jurusan.html">Jurusan</a></li>
+                  <li><a class="dropdown-item" href="fasilitas.html">fasilitas</a></li>
+                  <li><a class="dropdown-item" href="guru.html">Guru dan TU</a></li>
+                  <li><a class="dropdown-item" href="eskul.html">Eskull</a></li>
+                  <li><a class="dropdown-item" href="ppdb.html">Info PPDB</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">galeri</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="poto.html">Foto Kegiatan</a></li>
+                  <li><a class="dropdown-item" href="video.html">Video Kegiatan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="kontak.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <div id="login">
+            <div class="btn btn-dangerius bg-red shadow-lg p-2 mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" href="#">Login</div>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!--akhir bagian nav bar-->
+  <!---bagian sider-->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="asset/ky.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Sekolah perbankan syariah.</h1>
+            <p>Dengan sekolah perbankan syariah pertama di Jasinga</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="asset/FIX4.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>SMK AR-RAHMAH JASINGA</h1>
+            <p>Ayo bergabung bersama kami, dan jadilah sang juara!.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Selengkapnya</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="asset/slider1.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Wujudkan Mimpimu Disini !</h1>
+            <p>SMK Ar-Rahmah jasinga hadir dengan lebih profesional!.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container marketing">
+
+
+    <!--bagian modul pop uplogiN-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="form-signin">
+        <form>
+          <div class="text-center">
+            <img class="mb-3" src="asset/logo.png" alt="" width="72" height="72" m-auto>
+            <h1 class="h3 mb-3 fw-center ">Yuk Login !</h1>
+          </div>
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="User Name...">
+            <label for="floatingInput">User name..</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password.....</label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-muted">&copy; Official Ar-Rahmah</p>
+
+        </form>
+      </div>
+       
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--bagian modal button-->
+
+
+<div class="modal fade" id="modal-primary">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Default Modal</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer justify-content-between">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle " width="140" height="140" src="asset/ypi.JPG" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+      
+        <h2>Khaerudin, S.Ag., MM.</h2>
+        <p>pendidikan merupakan aspek penting bagi kehidupan, dengan pendidikan kita bisa membangun sumber daya manusia yang berkarakter.... </p>
+        <p><a class="btn btn-secondary" href="#">Selengkapnya..</a></p>
+      </div><!-- /.col-lg-4 -->
+
+
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle " width="140" height="140" src="asset/kepsek.jpg" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+        <h2>MAMAT, S.Pd., MM.</h2>
+        <p>Sekolah merupakan lembaga pendidikan yang bertugas mendidik anak-anak menuju generasi yang baik, perlu kerjasama antara sekolah dan orang tua agar membentuk karakter yang baik....</p>
+        <p><a class="btn btn-secondary" href="#">Selengkapnya..</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle " width="140" height="140" src="asset/mdn.jpg" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+        <h2>MAHMUDIN, S.Pd.</h2>
+        <p>Pendidikan bukan sebuah lembaga yang menjadi formalitas. perlu kerja keras dan kesungguhan dalam mendidik anak didik akar disiplin dan mempunyai karakter yang baik..</p>
+        <p><a class="btn btn-secondary" href="#">Selengkapnya..</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <!--bagian card-->
+    <div class="container px-4 py-0" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Informasi Terbaru</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('asset/pkl1.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PKL Perdana setelah Covid - 19</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <button type="button" class="btn btn-primary">Baca</button>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                  <small>29 Mei 2021</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('asset/ppdb1.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-2 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PPDB angkatan 2021-2022 telah dibuka!</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <button type="button" class="btn btn-primary">Baca</button>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                  <small>29 Mei 2021</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('asset/paskib1.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Juara utama lomba paskibra</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <button type="button" class="btn btn-primary">Baca</button>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                  <small>29 Mei 2021</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="copyryght"><a href="">Selengkapnya &raquo</a></p>
+    <br>
+
+
+    <!--bagian berwarna-->
+    <div class="warna">
+    <div class="container-fluid">
+      <div class="content-video">
+      <iframe src="https://www.youtube.com/embed/VQ_m3Ig9uvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="descripsi">
+    <h4>VIDEO TENTANG KAMI</h4>
+    <p>dalam ikut serta mensukseskan lulusan yang kometitif dalam dunia kerja, kami hadir untuk menjadi solusi pendidikan di mayarakat, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ad illum, animi quaerat, tempore ex corporis explicabo, sunt in id quasi quod quibusdam. Temporibus labore repudiandae, deleniti doloremque dolorum nisi?</p>
+    <p><a class="btn btn-md btn-primary" href="video.html" target="_blank" >Selengkapnya</a></p>
+  </div>
+    </div>
+    </div>
+
+    <!-- START THE FEATURETTES -->
+    <hr>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Prosfek kejuruan yang besar <span class="text-muted">Lembaga Syariah sedang buming sekarang !</span></h2>
+        <p class="lead">Sekolah vokasi akutansi dan keuangan syariah ini memiliki prodfek besar di Indonesia, pasalnya semua lembaga sekarang mengembangkan unitnya berbasis syariah, seperti perbankan, asuransi, lembaga keuangan non bank lainya pun sama!</p>
+        <p><a href="">Selengkapnya &raquo</a></p>
+      </div>
+      <div class="col-md-5">
+
+        <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="asset/how3.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+            </div>
+            <div class="carousel-item">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="asset/how2.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        </div>
+        <div class="carousel-item">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="asset/how.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  
+  </div>
+    <hr class="featurette-divider">
+  </div>
+  </main>
+<!--bagian footer-->
+ <footer>
+   <div class="container-fluid">
+     <div class="row row-fotter">
+       <div class="col-sm-3 pb-2">
+         <div class="content">
+           <h4>Sambutan Kepala Sekolah</h4>
+           <hr>
+           <div class="body-content">
+            <img src="asset/kepsek.jpg" alt="kepala sekolah" style="margin-top:0px; height:200px; border:#eee thin solid; padding:5px; float:left;  margin:0 10px;">
+            <p>Assalamu&#39;alaikum wr.wb.</p>
+
+<p style="text-align: justify;">Puji syukur kepada Allah SWT, Tuhan Yang Maha Esa yang telah memberikan rahmat dan anugerahnya sehingga pendaftaran siswa baru berbasis online ini dapat terbit untuk menjawab akan setiap kebutuhan informasi dengan memanfaatkan sarana teknologi informasi yang ada.</p>
+<p>Wassalamu&#39;alaikum wr.wb.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-sm-3 pb-2">
+        <div class="head-content">
+          <h4>Alamat</h4>
+          <hr>
+        </div>
+        <div class="body-content">
+          
+          <p>Jl. Raya Jasinga - Koleang Km.06, Kp Silongong RT.03/04 Dusun 2 Desa Koleang Kecematan Jasinga Kabupaten Bogor Provinsi Jawa Barat (16670)</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4851045936216!2d106.44145831431246!3d-6.460056164962023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e420b823079f533%3A0xe9855a83a906d538!2sYayasan%20Ar%20Rahmah%20Jasinga!5e0!3m2!1sid!2sid!4v1635169448223!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-2 pb-2">
+        <div class="head-content">
+          <h4>Link Terkait</h4>
+        </div>
+        <hr>
+        <div class="body-content">
+          <ul class="timeline">
+            <li>
+              <a class="shorcut"  href="#">Berit terkini</a>
+            </li>
+            <li>
+              <a class="shorcut" href="#">Perlombaan Paskibra Jawabarat</a>
+            </li>
+            <li>
+              <a class="shorcut" href="#">PPDB</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-2 pb-2">
+        <div class="head-content">
+          <h4>Newsletter</h4>
+          <hr>
+        </div>
+        <div class="body-content text-center border">
+          <form action="#" class="send">
+            <div class="email">
+              <div class="text" > Email</div>
+              <input type="email" placeholder="Masukan email anda..." class="textarea"  required>
+            </div>
+
+            <div class="msg">
+              <div class="text">Pesan Anda</div>
+                <textarea class="textarea" placeholder="Isikan Pesan Anda.." rows="2" cols="25" required="" ></textarea>
+            </div>
+            <div class="btn btn-primary btn-sm" type="submit">
+              KIRIM
+            </div>
+            <br>
+            <div></div>
+           
+          </form>
+          
+        </div>
+      </div>
+     
+     </div>
+   </div>
+ </footer>
+ <p class="copyryght">&copy; Official Ar-Rahmah 2021</p>
+ <script src="js/sweetalert2.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.2/dist/sweetalert2.all.min.js"></script>
+  <script src="popupmanual.js"></script>
+  
+</body>
+</html>

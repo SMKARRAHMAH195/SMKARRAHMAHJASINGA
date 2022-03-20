@@ -1,0 +1,48 @@
+/*--bagian hover pada navbar button login */
+#login:hover {
+    background-color: blue;
+    border-radius: 10%;
+    animation: rainbow;
+    animation-duration: 10s;
+
+}
+@keyframes rainbow {
+    100% {
+        background-color: rgb(245, 8, 8);
+    }
+    75% {
+        background-color: cyan;
+    }
+    50% {
+        background-color: darkmagenta;
+    }
+    25% {
+        background-color: darkred;
+    }
+
+}
+
+#navbar:hover {
+    background-color: red;
+    animation: rainbow;
+    animation-duration: 3s;
+  
+  }
+  
+  @keyframes backround-color {
+    100% {
+      background-color: chartreuse;
+  }
+  75% {
+      background-color: cyan;
+  }
+  50% {
+      background-color: darkmagenta;
+  }
+  25% {
+      background-color: darkred;
+  }
+  }
+  
+/*--akhir bagian hover pada navbar button login */
+/*bagian warna*/
