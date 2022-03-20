@@ -1,0 +1,73 @@
+.bagianheader {
+    margin-bottom: none;
+}
+.navigator {
+    margin-top: 25px;
+}
+.fixed {
+    position: fixed-top;
+}
+.nav-link {
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+}
+.dropdown-menu {
+    background-color:teal;
+}
+.dropdown-menu:hover{
+    background-color: teal;
+    
+}
+footer {
+    background-color:teal;
+    color: seashell;
+    font-family: 'Times New Roman', Times, serif;
+    margin: bottom 0px;;
+}
+.navbar {
+    background-color:teal;
+}
+.row-fotter {
+    text-align: justify;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+.shorcut {
+    color: beige;
+    text-decoration: none;
+}
+.copyryght {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.next {
+    position: relative;
+}
+.warna {
+    background-color: darkcyan;
+    border-radius: 20px;
+    color:white;
+    
+}
+
+.content-video {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 3%;
+    
+}
+.descripsi {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    
+
+}
+.textarea {
+    border-radius: 15px;
+}
